@@ -12,3 +12,8 @@ header {
     position: relative;
 }
 
+.item-images {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
