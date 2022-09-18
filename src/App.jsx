@@ -7,7 +7,6 @@ const App = () => {
     <>
     <Header/>
     <Note/>
-    <h1><button></button></h1>
     <h1><br /></h1>
     <h1><br /></h1>
     </>
