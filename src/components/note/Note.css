@@ -1,32 +1,31 @@
 .container.note_container {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
-    position: centre
-}
-
-.note_options {
     display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    position: centre
+    grid-template-columns: 30% 50%;
+    gap: 12%;
+    position: center;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    position: centre
+    position: centre;
+    margin: auto;
 }
 
 input,
 textarea {
-    width: 100%;
+    width: 1000px;
+    position: centre;
+    justify-content: center;
+    align-items: center;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 1px solid var(--color-primary);
+    border: 2px solid var(--color-primary);
     resize: none;
-    color: var(--color-white)
+    color: var(--color-white);
+    text-align: left;
 }
