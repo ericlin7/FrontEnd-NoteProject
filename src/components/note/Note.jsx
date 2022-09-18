@@ -11,9 +11,6 @@ const Note = () => {
           placeholder="Place your Notes!"
           required
         >
-      <div>
-        <button>hihi</button>
-      </div>
         </textarea>
       </form>
     </div>
