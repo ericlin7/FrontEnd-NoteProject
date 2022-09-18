@@ -10,7 +10,11 @@ const Note = () => {
           rows="30"
           placeholder="Place your Notes!"
           required
-        ></textarea>
+        >
+      <div>
+        <button>hihi</button>
+      </div>
+        </textarea>
       </form>
     </div>
   );

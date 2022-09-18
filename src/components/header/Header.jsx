@@ -6,7 +6,9 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <h1>Note Taking Project</h1>
-        <h5>A new way of studying!</h5>
+        <h5>We believe you can learn anything, <br></br> 
+            so lets remove the card making, and get to the learning.
+        </h5>
       </div>
     </header>
   )
