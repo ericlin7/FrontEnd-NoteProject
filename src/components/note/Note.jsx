@@ -12,7 +12,13 @@ const Note = () => {
 
   const handleClick = event => {
     event.preventDefault();
-    console.log(message);
+    axios
+        .post("http://127.0.0.1:5000/createQuestion", {
+          note: message
+        })
+        .then((res) => {
+          console.log(res.data)
+        })
   };
 
   return (
