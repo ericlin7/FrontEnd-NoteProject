@@ -4,15 +4,15 @@ import "animate.css";
 import logo from "../../quizzify_logo.png";
 
 const Header = () => {
-  const data = [{ image: logo }];
+  const data = [{ id: 1, image: logo }];
 
   return (
     <header>
       <div className="container   header_container">
         <h1 className="animate__animated animate__bounceInDown">
-          {data.map(({ image }) => {
+          {data.map(({ id, image }) => {
             return (
-              <div className="item-images">
+              <div className="item-images" key={id}>
                 <img src={image} />
               </div>
             );
