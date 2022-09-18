@@ -1,0 +1,32 @@
+.container.note_container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    position: centre
+}
+
+.note_options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: centre
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    position: centre
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 1px solid var(--color-primary);
+    resize: none;
+    color: var(--color-white)
+}
